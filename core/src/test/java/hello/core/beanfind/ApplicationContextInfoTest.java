@@ -1,10 +1,9 @@
 package hello.core.beanfind;
 
-import hello.core.order.AppConfig;
-import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Test;
-import org.springframework.beans.factory.config.BeanDefinition;
-import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import hello.core.order.*;
+import org.junit.jupiter.api.*;
+import org.springframework.beans.factory.config.*;
+import org.springframework.context.annotation.*;
 
 public class ApplicationContextInfoTest {
     AnnotationConfigApplicationContext ac = new AnnotationConfigApplicationContext(AppConfig.class);
