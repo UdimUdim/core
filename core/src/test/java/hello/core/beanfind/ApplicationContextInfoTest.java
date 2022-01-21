@@ -1,6 +1,6 @@
 package hello.core.beanfind;
 
-import hello.core.order.*;
+import hello.core.*;
 import org.junit.jupiter.api.*;
 import org.springframework.beans.factory.config.*;
 import org.springframework.context.annotation.*;

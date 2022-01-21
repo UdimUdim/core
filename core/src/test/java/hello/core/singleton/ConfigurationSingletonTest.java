@@ -1,5 +1,6 @@
 package hello.core.singleton;
 
+import hello.core.*;
 import hello.core.member.*;
 import hello.core.order.*;
 import org.assertj.core.api.Assertions;

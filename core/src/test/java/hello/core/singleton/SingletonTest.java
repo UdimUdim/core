@@ -1,8 +1,7 @@
 package hello.core.singleton;
 
+import hello.core.*;
 import hello.core.member.*;
-import hello.core.order.*;
-import org.assertj.core.api.*;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.*;
 import org.springframework.context.*;
