@@ -2,7 +2,10 @@ package hello.core.discount;
 
 import hello.core.member.Member;
 import hello.core.member.Grade;
+import org.springframework.beans.factory.annotation.*;
+import org.springframework.stereotype.*;
 
+@Component
 public class FixDiscountPolicy implements DiscountPolicy{
 
     private int discountFixAmount = 1000;
